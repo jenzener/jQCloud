@@ -5,6 +5,7 @@
  * Copyright 2014-2017 Damien "Mistic" Sorel (http://www.strangeplanet.fr)
  * Licensed under MIT (http://opensource.org/licenses/MIT)
  */
+
 (function(root, factory) {
     if (typeof define === 'function' && define.amd) {
         define(['jquery'], factory);
@@ -100,7 +101,7 @@ jQCloud.prototype = {
             this.colorGenerator = this.options.colors;
         }
         // Array of sizes
-        else if ($.isArray(this.options.colors)) {
+        else if (Array.isArray(this.options.colors)) {
             var cl = this.options.colors.length;
             if (cl > 0) {
                 // Fill the sizes array to X items
@@ -130,7 +131,7 @@ jQCloud.prototype = {
             };
         }
         // Array of sizes
-        else if ($.isArray(this.options.fontSize)) {
+        else if (Array.isArray(this.options.fontSize)) {
             var sl = this.options.fontSize.length;
             if (sl > 0) {
                 // Fill the sizes array to X items
