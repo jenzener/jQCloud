@@ -1,5 +1,5 @@
 /*!
- * jQCloud 2.0.3
+ * jQCloud 2.0.4
  * Copyright 2011 Luca Ongaro (http://www.lucaongaro.eu)
  * Copyright 2013 Daniel White (http://www.developerdan.com)
  * Copyright 2014-2017 Damien "Mistic" Sorel (http://www.strangeplanet.fr)
